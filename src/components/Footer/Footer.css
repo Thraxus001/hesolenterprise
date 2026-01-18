@@ -1,0 +1,21 @@
+/* src/components/Footer/Footer.css */
+.footer {
+    background: linear-gradient(135deg, var(--primary-dark) 0%, #1a237e 100%);
+  }
+  
+  .footer-link {
+    transition: opacity 0.3s ease;
+  }
+  
+  .footer-link:hover {
+    opacity: 1;
+  }
+  
+  .social-icon {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    transform: translateY(-3px);
+    background-color: rgba(255, 255, 255, 0.2) !important;
+  }

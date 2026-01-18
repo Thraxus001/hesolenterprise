@@ -1,0 +1,46 @@
+/* src/pages/Home/Home.css */
+.hero-section {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+  }
+  
+  .hero-content {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .category-card {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .category-card:hover {
+    transform: translateY(-8px);
+  }
+  
+  .feature-icon {
+    transition: transform 0.3s ease;
+  }
+  
+  .feature-icon:hover {
+    transform: scale(1.1);
+  }
+  
+  .product-card {
+    border: 1px solid var(--border-color);
+    transition: border-color 0.3s ease;
+  }
+  
+  .product-card:hover {
+    border-color: var(--primary-color);
+  }

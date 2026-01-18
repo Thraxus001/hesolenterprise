@@ -1,0 +1,73 @@
+/* src/pages/ProductDetail/ProductDetail.css */
+.product-detail {
+    animation: fadeIn 0.5s ease;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  .product-image-zoom {
+    transition: transform 0.3s ease;
+    cursor: zoom-in;
+  }
+  
+  .product-image-zoom:hover {
+    transform: scale(1.5);
+  }
+  
+  .thumbnail {
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+  }
+  
+  .thumbnail:hover {
+    border-color: var(--primary-color);
+  }
+  
+  .thumbnail.active {
+    border-color: var(--primary-color);
+    box-shadow: var(--shadow-sm);
+  }
+  
+  .quantity-selector {
+    border-radius: var(--border-radius);
+    overflow: hidden;
+  }
+  
+  .quantity-button {
+    border: none;
+    background: var(--bg-secondary);
+    transition: background-color 0.3s ease;
+  }
+  
+  .quantity-button:hover {
+    background: var(--border-color);
+  }
+  
+  .product-tabs {
+    border-bottom: 1px solid var(--border-color);
+  }
+  
+  .product-tab {
+    transition: all 0.3s ease;
+  }
+  
+  .product-tab:hover {
+    color: var(--primary-color);
+  }
+  
+  .product-tab.Mui-selected {
+    color: var(--primary-color);
+    font-weight: 600;
+  }
+  
+  .feature-icon {
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .feature-icon:hover {
+    transform: scale(1.1);
+    color: var(--primary-color);
+  }
