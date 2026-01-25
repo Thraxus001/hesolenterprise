@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/hesolenterprise/static/css/main.e21ee594.css",
+    "main.js": "/hesolenterprise/static/js/main.1b1bbb02.js",
+    "static/js/453.5675c19f.chunk.js": "/hesolenterprise/static/js/453.5675c19f.chunk.js",
+    "index.html": "/hesolenterprise/index.html",
+    "main.e21ee594.css.map": "/hesolenterprise/static/css/main.e21ee594.css.map",
+    "main.1b1bbb02.js.map": "/hesolenterprise/static/js/main.1b1bbb02.js.map",
+    "453.5675c19f.chunk.js.map": "/hesolenterprise/static/js/453.5675c19f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e21ee594.css",
+    "static/js/main.1b1bbb02.js"
+  ]
+}
